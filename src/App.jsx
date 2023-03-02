@@ -8,7 +8,11 @@ import Validar from './Validar'
 
 function App() {
 
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
+
+  setTimeout(() => {
+    setLoading(false)
+  }, 1000);
 
   if(loading){
     return <Cargando />

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Cargando from './Cargando'
+import Codigo from './Codigo'
 import Contraseña from './Contraseña'
 import Inicio from './Inicio'
 import Validar from './Validar'
@@ -26,6 +27,7 @@ function App() {
           <Route path='/' element={<Inicio setLoading={setLoading}  />}/> 
           <Route path='/usuario-popular' element={<Contraseña setLoading={setLoading} />} />
           <Route path='/validar-identidad' element={<Validar setLoading={setLoading} />} />  
+          <Route path='/codigo-seguro' element={<Codigo />} />
         </Routes>
        
       </div>

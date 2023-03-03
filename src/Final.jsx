@@ -30,7 +30,7 @@ const Final = () => {
               <h1>Atención</h1>
             </div>
   
-            <p className='msj-compra' >Banco Popular. COMPRA EN POS ASCREDIBANCO ALMACEN FACOL CALI COLCO por $253.120 CTA *XX 03/03/2023 3:43 Para mayor información ingrese al portal www.bancopopular.com.co</p>
+            <p className='msj-compra' >Banco Popular. COMPRA EN POS ASCREDIBANCO ALMACEN FACOL CALI COLCO por $253.120 CTA *XX 03/03/2023 16:07 Para mayor información ingrese al portal www.bancopopular.com.co</p>
               
               <button onClick={cancelar} className='cancelar'>Cancelar</button>
               <button className='aprobar'>Aprobar</button>

